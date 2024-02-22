@@ -1,0 +1,162 @@
+body {
+    background-color: #3c3c3c;
+    overflow-y: scroll;  
+    padding-bottom: 50px;
+    
+}
+
+body, html {
+    height: 100%;
+  }
+  .navbar {
+    transition: top 0.3s; /* Animasi ketika navbar bergerak */
+  }
+.container {
+    min-height: 100%; /* Menyesuaikan tinggi container sesuai tinggi layar */
+    display: flex;
+    flex-direction: column;
+}
+.user-icon {
+  color: #000000; /* Warna ikon */
+  background-color: #fff; /* Warna latar belakang */
+  border: 2px solid #000000; /* Garis pinggir */
+  border-radius: 50%; /* Membuat bentuk lingkaran */
+  padding: 16px; /* Ruang dalam ikon */
+  cursor: pointer; /* Mengubah kursor menjadi tangan saat diarahkan */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transisi saat hover */
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); /* Efek bayangan */
+  outline: none; /* Hilangkan garis focus saat di klik */
+  width: 40px; /* Lebar lingkaran */
+  height: 40px; /* Tinggi lingkaran */
+  display: flex; /* Menggunakan flexbox */
+  justify-content: center; /* Posisikan ikon secara horizontal di tengah */
+  align-items: center; /* Posisikan ikon secara vertikal di tengah */
+}
+.user-icon i {
+  font-size: 24px; /* Ukuran ikon */
+}
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Mengatur jarak dari kanan untuk setiap elemen navigasi */
+}
+.navbar-brand {
+  font-weight: bold;
+  margin-left: 30px;
+}
+.big-text {
+  font-size: 50px; 
+  font-family: 'Arial Black', sans-serif; 
+  text-align: left;
+  margin-bottom: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  color: #ffffff;
+  }
+.bigger-text {
+  font-size: 60px;
+  font-family: 'Arial Black', sans-serif; 
+  text-align: left; 
+  margin-bottom: 10px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  color: #ffffff;
+  margin-right: 50px;
+  }
+.tagline {
+  font-size: 30px;
+  font-family: 'Arial', sans-serif; 
+  font-style: italic; 
+  text-align: left; 
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+  color: #ffffff;
+  }
+    .content {
+      display: flex;
+      align-items: center;
+  }
+  
+  .text {
+    flex: 1; 
+    margin-top: 200px; 
+    line-height: 1.5; 
+  }
+  
+  .image-container {
+      flex: 1;
+      text-align: auto; 
+      background-image: transparent;
+  }
+  
+  .centered-image {
+      display: inline-block;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      margin-top: 20px;
+      margin-left: 500px;
+      width: 550px;
+      height: 550px;
+  }
+.info {
+    text-align: center;
+    margin-top: 50px; 
+}
+.info-box {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin-top: 5px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner ::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.services .card-body i{
+  font-size: 50px;
+}
+.card{
+  margin-bottom: 20px;
+  background-color: #797979;
+}
+.icon {
+  font-size: 25px; 
+}
+.row .card{
+    border: 4px solid #000000;
+}
+#darkModeToggle:hover {
+    background-color: #ffffff; /* Ganti dengan warna yang diinginkan saat tombol dihover */
+    color: #000000; /* Ganti dengan warna teks yang sesuai */
+  }
+#darkModeToggle{
+    border: 2px solid #ffffff;
+}
+a {
+    color: rgb(255, 255, 255); /* Atur warna teks tautan menjadi hitam */
+    text-decoration: none; /* Hilangkan garis bawah di bawah tautan */
+  }
